@@ -9,25 +9,30 @@ export default function Homepage(){
             <img className='fixed top-0' src={require('../assets/Ellipse 11.png')} alt=""></img>
             <img className='fixed bottom-0' src={require('../assets/Ellipse 13.png')} alt=""></img>
             <img className='fixed left-0' src={require('../assets/Rectangle 29.png')} alt=""></img>
-            <div className='grid grid-cols-3 card-home glass-bg-home'> 
-                <div>
+            <div className='grid grid-cols-5 grid-rows-3 card-home glass-bg-home'> 
+                <div className='col-start-1 col-span-1'>
                     <SideBar></SideBar>
                 </div>
-                <div className='grid grid-rows-3 card-mid'>
-                    <div>
-                        Welcome Home,
-                        Trash
-                    </div>
-                    <div>
-                        <Progress>
+                <div className='col-start-2 col-span-2'>
+                    <h1>hi</h1>
+                    <div className='grid grid-rows-3 card-mid'>
+                        <div>
+                            Welcome Home,
+                            Trash
+                        </div>
+                        <div>
+                            <Progress>
 
-                        </Progress>
-                    </div>
-                    <div>
+                            </Progress>
+                        </div>
+                        <div>
+                            <Progress>
 
+                            </Progress>
+                        </div>
                     </div>
                 </div>
-                <div>
+                <div className='col-start-3 col-span-2'>
                     <h1>hi</h1>
                 </div>
             </div>

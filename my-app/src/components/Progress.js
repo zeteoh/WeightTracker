@@ -9,6 +9,9 @@ function Progress(){
                 <div>
                     <AiTwotoneFire style={{fontsize:'100px'}}></AiTwotoneFire>
                 </div>
+                <div>
+                    <h3>You're making great progress!</h3>
+                </div>
             </div>
             
         </div>

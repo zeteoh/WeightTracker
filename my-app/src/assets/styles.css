@@ -15,6 +15,12 @@
     margin: 5%;
 }
 
+.card-mid{
+    height: 100%;
+    width: 100%;
+    margin: 5%;
+}
+
 .glass-bg-home{
     background: rgb(255, 255, 255);
     border-radius: 16px;
@@ -25,7 +31,7 @@
 }
 
 .glass-bg{
-    background: rgba(243, 241, 243, 0.72);
+    background: rgba(255, 255, 255, 0.72);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(6.3px);
