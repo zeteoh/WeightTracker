@@ -48,15 +48,15 @@ export default function SideBar(){
             </div>
             <div>
                 <CgProfile className='svg'></CgProfile>
-                <span className="dashboard-text">Profile</span>
+                <span className="text">Profile</span>
             </div>
             <div>
                 <FaWeight className='svg'></FaWeight>
-                <span className="dashboard-text">Weight Tracker</span>
+                <span className="text">Weight Tracker</span>
             </div>
             <div>
                 <FiLogOut className='svg'></FiLogOut>
-                <span className="dashboard-text">Log out</span>
+                <span className="text">Log out</span>
             </div>
         </div>
     )
