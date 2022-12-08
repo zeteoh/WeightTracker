@@ -22,21 +22,45 @@
 }
 
 .glass-bg-home{
-    background: rgb(255, 255, 255);
-    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 71px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.3px);
-    -webkit-backdrop-filter: blur(6.3px);
-    border: 2px solid rgba(255, 255, 255, 0.66);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    width: 100%;
 }
 
-.glass-bg{
-    background: rgba(255, 255, 255, 0.72);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.3px);
-    -webkit-backdrop-filter: blur(6.3px);
-    border: 1px solid rgba(255, 255, 255, 0.66);
+.sidebar {
+    background: rgba(255, 255, 255, 0.623);
+    border-radius: 71px;
+    height: 100%;
+}
+
+.sidebar .link {
+    padding: 8px 5px 8px 10px;
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    transition: all 0.5s ease;
+    
+  }
+  
+  .sidebar .link:hover {
+    text-decoration: none;
+    background: rgba(231, 220, 255, 0.65)
+  }
+
+.sidebar svg {
+    display: inline-block;
+    margin-left: 30px;
+    background:rgba(255, 255, 255, 0.19)
+}
+  
+
+
+.logo{
+    width:80%;
+    margin: auto;
 }
 
 .bg-images {

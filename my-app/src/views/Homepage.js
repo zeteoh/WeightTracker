@@ -5,12 +5,23 @@ import '../assets/styles.css'
 
 export default function Homepage(){
     return (
-        <motion.div className="min-h-screen text-black" style={{ alignItems: 'center' }} initial={{ width: 0 }} animate={{ width: "100%" }} exit={{ x: window.innerWidth, transition: { duration: 0.2 } }}>
+        <div className="min-h-screen p-12 flex">
             <img className='bg-images ellipse-1' src={require('../assets/Ellipse 11.png')} alt=""></img>
             <img className='bg-images ellipse-2' src={require('../assets/Ellipse 13.png')} alt=""></img>
             <img className='bg-images bg-rectangles' src={require('../assets/Rectangle 29.png')} alt=""></img>
-            {/* <div className='grid grid-cols-5 grid-rows-3 card-home glass-bg-home'> 
-                <div className='col-start-1 col-span-1'>
+            <div className='glass-bg-home flex p-2'> 
+                <div className='glass-bg-home flex'> 
+                    <div  className='flex-none w-64'>
+                        <SideBar></SideBar>
+                    </div>
+                    <div className="flex-1">
+                        test
+                    </div>
+                    <div className="flex-1">
+                        test
+                    </div>
+                </div>
+                {/* <div className='col-start-1 col-span-1'>
                     <SideBar></SideBar>
                 </div>
                 <div className='col-start-2 col-span-2'>
@@ -34,9 +45,9 @@ export default function Homepage(){
                 </div>
                 <div className='col-start-3 col-span-2'>
                     <h1>hi</h1>
-                </div>
-            </div> */}
-        </motion.div>
+                </div> */}
+            </div>
+        </div>
     );
 
 }
