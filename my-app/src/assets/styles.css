@@ -34,30 +34,45 @@
     background: rgba(255, 255, 255, 0.623);
     border-radius: 71px;
     height: 100%;
+    
 }
 
 .sidebar .link {
-    padding: 8px 5px 8px 10px;
+    padding: 15px 5px 15px 5px;
     display: block;
     width: 100%;
     font-size: 12px;
     transition: all 0.5s ease;
-    
   }
   
   .sidebar .link:hover {
     text-decoration: none;
-    background: rgba(231, 220, 255, 0.65)
+    background: rgba(231, 220, 255, 0.65);
+    color: rgba(207, 54, 54, 0.62);
   }
 
-.sidebar svg {
+.sidebar  svg {
     display: inline-block;
-    margin-left: 30px;
-    background:rgba(255, 255, 255, 0.19)
+    margin-left: 25px;
+    color:#414141;
+    transition: all 0.5s ease;
+}
+    .sidebar .link:hover svg {
+        color: #8156DD;
+    }
+
+
+.sidebar span {
+    font-size: 15px;
+    font-weight: 600;   
+    letter-spacing: -0.011em;
+    color: rgba(91, 91, 91, 0.62);
+    transition: all 0.5s ease;
+}
+    .sidebar .link:hover span{
+    color: rgba(173, 137, 251, 1)
 }
   
-
-
 .logo{
     width:80%;
     margin: auto;

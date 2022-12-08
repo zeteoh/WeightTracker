@@ -1,25 +1,27 @@
-import {CgProfile} from 'react-icons/cg'
 import {FaWeight} from 'react-icons/fa'
+import {FaUserCircle} from 'react-icons/fa'
+
+
 import {FiLogOut} from 'react-icons/fi'
 import { NavLink } from "react-router-dom";
 
 export default function SideBar(){
     return (
         <div className="sidebar flex flex-col items-center">
-              <div className="flex-none min-h-1/6 py-10">
+              <div className="flex-none min-h-1/5 pt-16 pb-20">
                 <img className='logo' src={require('../assets/logo.png')} alt=""></img>
                </div>
                 <NavLink className="link" to="/" onClick={''}>
-                    <CgProfile style={{fontSize:'36px'}}></CgProfile>
-                    <span className='pl-10'>Profile</span>
+                    <FaUserCircle style={{fontSize:'34px'}}></FaUserCircle>
+                    <span className='pl-6'>Profile</span>
                 </NavLink>
                 <NavLink className="link" to="/" onClick={''}>
-                    <FaWeight style={{fontSize:'36px'}}></FaWeight>
-                    <span className="pl-10">Weight Tracker</span>
+                    <FaWeight style={{fontSize:'32px',}}></FaWeight>
+                    <span className="pl-6">Weight Tracker</span>
                 </NavLink>
                 <NavLink className="link" to="/" onClick={''}>
-                    <FiLogOut style={{fontSize:'36px'}}></FiLogOut>
-                    <span className="pl-10">Logout</span>
+                    <FiLogOut style={{fontSize:'32px'}}></FiLogOut>
+                    <span className="pl-6">Logout</span>
                 </NavLink>
         </div>
         // <div className="sidebar">

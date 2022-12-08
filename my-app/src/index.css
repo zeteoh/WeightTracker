@@ -7,6 +7,7 @@ body {
   background: rgb(185,164,253);
   background: linear-gradient(90deg, rgba(185,164,253,1) 0%, rgba(250,203,239,1) 100%);
   overflow: hidden;
+  font-family: 'Inter', sans-serif;
 }
 
 code {
